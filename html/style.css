@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+}
+
+header {
+    background-color: #FFB6C1;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+    border: 1px solid #000000;
+}
+
+header a {
+    text-decoration: none;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    font-family: Bodoni, sans-serif;
+}
+
+img {
+    margin: 10px
+}
+
+.logo {
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+
+img.capa {
+    width: 1079px;
+    height: 650px;  /*duvida se não posso colocar width:100%;*/
+    margin: auto;
+                    /* margin-top: -21.9px; */
+}
+
+footer {
+    background-color: #FFB6C1;
+    color: #000000;
+    text-align: center;
+    border-bottom: 2px solid #000000;
+}
+
+.icons {
+    width: 2rem;
+    height: 2rem;
+}
+
+
+
+
