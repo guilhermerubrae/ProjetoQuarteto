@@ -5,6 +5,7 @@
 body {
   margin-left: auto;
   margin-right: auto;
+  height: 100vh;
   width: 80%;
   border-left: 1px solid #ffb6c1;
   border-right: 1px solid #ffb6c1;
@@ -20,8 +21,9 @@ h3 {
 header {
   background-color: #ffb6c1;
   text-align: center;
+  display: flex;
   border-bottom: 2px solid #000000;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 10px;
   clear: none;
@@ -29,9 +31,20 @@ header {
 
 header a {
   text-decoration-line: none;
-  border: 1px solid #000000;
-  background-color: #fff;
+  border: none;
+  background-color: none;
+  padding: 5px 10px;
+  margin: 3px;
+  border-radius: 4px;
+  color: #fff;
   float: right;
+  transition: 0.4s;
+  font-weight: 300;
+  flex-wrap: nowrap;
+}
+
+header a:hover {
+  background-color: #ff7f81;
 }
 
 .logo {
@@ -52,6 +65,7 @@ footer {
   color: #000000;
   text-align: center;
   border-bottom: 2px solid #000000;
+  
 }
 
 .icons {
