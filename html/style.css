@@ -1,61 +1,75 @@
 * {
-    margin: 0px;
-  }
+  margin: 0px;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  width: 80%;
+  border-left: 1px solid #ffb6c1;
+  border-right: 1px solid #ffb6c1;
+  font-family: Bodoni, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+
+header {
+  background-color: #ffb6c1;
+  text-align: center;
+  display: flex;
+  border-bottom: 2px solid #000000;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  clear: none;
+}
+
+header a {
+  text-decoration-line: none;
+  border: none;
+  background-color: none;
+  padding: 5px 10px;
+  margin: 3px;
+  border-radius: 4px;
+  color: #fff;
+  float: right;
+  transition: 0.4s;
+  font-weight: 300;
+  flex-wrap: nowrap;
+}
+
+header a:hover {
+  background-color: #ff7f81;
+}
+
+.logo {
+  float: left;
+  width: 60px;
+  height: 60px;
+}
+
+.botão {
+  background-color: #ff7f81;
+  color: #fff;
+  padding: 6px 15px;
+  border: none;
+}
+
+footer {
+  background-color: #ffb6c1;
+  color: #000000;
+  text-align: center;
+  border-bottom: 2px solid #000000;
   
-  body {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    border-left: 1px solid #ffb6c1;
-    border-right: 1px solid #ffb6c1;
-    font-family: Bodoni, sans-serif;
-  }
-  
-  h1,
-  h2,
-  h3 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, sans-serif;
-  }
-  
-  header {
-    background-color: #ffb6c1;
-    text-align: center;
-    border-bottom: 2px solid #000000;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    clear: none;
-  }
-  
-  header a {
-    text-decoration-line: none;
-    border: 1px solid #000000;
-    background-color: #fff;
-    float: right;
-  }
-  
-  .logo {
-    float: left;
-    width: 60px;
-    height: 60px;
-  }
-  
-  .botão {
-    background-color: #f4bb6d;
-    color: #fff;
-    padding: 6px 15px;
-    border: none;
-  }
-  
-  footer {
-    background-color: #ffb6c1;
-    color: #000000;
-    text-align: center;
-    border-bottom: 2px solid #000000;
-  }
-  
-  .icons {
-    width: 2rem;
-    height: 2rem;
-  }
+}
+
+.icons {
+  width: 2rem;
+  height: 2rem;
+}
   
