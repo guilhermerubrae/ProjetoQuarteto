@@ -5,8 +5,13 @@
 }
 
 body {
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
     height: 100vh;
     width: 80%;
+    font-family: Bodoni, sans-serif;
 }
 
 header {
@@ -16,11 +21,19 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 10px;
+    border-bottom: 1px solid #000;
+    position: relative;
+    top: 0;
+}
+
+#logo-img {
+    height: 60px;
+    width: 60px;
 }
 
 img {
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
 }
 
 .right {
@@ -33,4 +46,11 @@ img {
 
 .right:hover {
     background-color: #d1024e;
+}
+
+.rodape {
+    background-color: #a6026c;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
