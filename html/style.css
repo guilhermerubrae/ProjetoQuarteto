@@ -1,5 +1,7 @@
 * {
   margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -23,7 +25,7 @@ header {
   text-align: center;
   display: flex;
   border-bottom: 2px solid #000000;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 10px;
   clear: none;
