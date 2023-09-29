@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-color: #a6026c;
+    background-color: #FFB6C1;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -26,14 +26,25 @@ header {
     top: 0;
 }
 
+
 #logo-img {
     height: 60px;
     width: 60px;
 }
 
-img {
+/* img {
     height: 50px;
     width: 50px;
+} */
+
+main {
+    overflow: hidden;
+    border: 1px solid #000;
+}
+
+#imagem {
+    width: 100%;
+    margin: 1rem;
 }
 
 .right {
@@ -49,11 +60,28 @@ img {
 }
 
 .rodape {
-    background-color: #a6026c;
+    background-color: #FFB6C1;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.rodape-item {
+    width: 33%;
+}
+
+.rodape p {
+    margin-left: 6px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-salgados {
+    height: 200px;
 }
 
 .icons img {
