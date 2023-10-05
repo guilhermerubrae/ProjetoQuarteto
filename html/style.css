@@ -18,6 +18,7 @@ h1,
 h2,
 h3 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+  color: #ffb6c1;
 }
 
 header {
@@ -60,6 +61,15 @@ img.capa {
   height: 700px;
   margin: auto;
 }
+form{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin: 1rem 20rem 1rem 1rem;
+}
+
+#formBloco {
+  margin: 1rem 2rem 1rem 1rem;
+}
 
 img.capahome {
   width: 100%;
@@ -72,6 +82,7 @@ img.capahome {
   color: #fff;
   padding: 6px 15px;
   border: none;
+  border-radius: 20px;
 }
 
 footer {
@@ -85,5 +96,6 @@ footer {
 .icons {
   width: 2rem;
   height: 2rem;
+
 }
   
