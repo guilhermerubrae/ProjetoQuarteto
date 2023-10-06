@@ -56,3 +56,8 @@ footer {
 
 img {height: auto;
      width: 100%;}
+
+@media(max-width:768px) {
+    .col {
+        width: 100%;
+    }
