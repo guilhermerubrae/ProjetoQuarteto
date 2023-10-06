@@ -23,12 +23,17 @@ header {
   clear: none;
 }
 
-header a {
-  background-color: #ffb6c1;
-  text-align: center;
-  border-bottom: 2px solid #000000;
-  text-decoration: none;
-}
+.a { 
+     text-decoration-line: none; 
+     color: #fff; 
+     padding: 2px 6px; 
+     border-radius: 3px; 
+     transition: 0.4s; 
+ } 
+  
+ .a:hover { 
+     background-color: #d1024e; 
+ }
 
 .logo { 
    float: left; 
