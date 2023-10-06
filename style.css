@@ -1,5 +1,5 @@
 * {
-  margin: 0px;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -12,17 +12,14 @@ body {
   font-family: Bodoni, sans-serif;
 }
 
-h1,
-h2,
-h3 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+h1, h2, h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #f4a4ac;
 }
 
 .sombreamento {
   color: #fff;
-  text-shadow: 2px 2px  #9f5166;
-
+  text-shadow: 2px 2px #9f5166;
 }
 
 header {
@@ -39,7 +36,7 @@ header {
 header a {
   text-decoration: none;
   border: none;
-  padding: 5px 5px;
+  padding: 5px 10px;
   margin: 5px;
   border-radius: 15px;
   color: #fff;
@@ -61,11 +58,12 @@ header a:hover {
   color: #f4a4ac;
   text-align: center;
   margin-top: 1rem;
+  padding: 1rem;
 }
 
 .listas {
-  margin: 1rem 1rem 1rem 1rem;
-  padding: 1rem 1rem 1rem 1rem;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 li {
@@ -74,31 +72,36 @@ li {
 
 .logo {
   border-radius: 50%;
-  width: 50%; 
-  max-width: 10rem; 
+  width: 50%;
+  max-width: 10rem;
   height: auto;
 }
 
 .imagens {
   display: flex;
   justify-content: space-around;
+  margin-top: 1rem;
   margin-bottom: 1rem;
   border-radius: 2rem;
   max-width: 100%;
   overflow-x: auto;
 }
 
-form{
+.imagensSalgados:hover {
+  transform: scale(1.1);
+}
+
+form {
   display: flex;
   flex-direction: column;
-  justify-content:space-around;
-  align-items:flex-start;
+  justify-content: space-around;
+  align-items: flex-start;
   flex-wrap: nowrap;
-  margin: 1rem 2rem 1rem 2rem;
+  margin: 1rem 2rem;
 }
 
 .text {
-  width:100%;
+  width: 100%;
   border: outset 1.6px #9f5166;
 }
 
@@ -108,14 +111,14 @@ form{
 }
 
 #container {
-  width:100%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
 }
 
 .column {
-  width:100%;
+  width: 100%;
   padding: 10px;
   border: 1px solid #f4a4ac;
   flex-wrap: nowrap;
@@ -127,7 +130,8 @@ form{
 
 img.capahome {
   width: 100%;
-  height: 700px;
+  height: auto;
+  max-height: 700px;
   margin: auto;
 }
 
@@ -148,7 +152,7 @@ img.capahome {
 #btn {
   display: flex;
   flex-direction: row-reverse;
-  align-items: end;
+  align-items: flex-end;
   transition: 0.4s;
   flex-wrap: nowrap;
 }
@@ -169,25 +173,22 @@ footer {
 
 nav.navFooter {
   display: flex;
-  gap: 10px; /* Espaço entre os ícones */
+  gap: 10px;
 }
 
 .copy {
-  margin: 1rem 1rem 1rem 1rem;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 .centralizado {
-  display: flex;
   text-align: center;
-  margin: 1rem 1rem 1rem 1rem;
+  margin: 1rem;
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
   body, header, footer, form {
     max-width: 100%;
-    overflow-x: hidden; /* Isso vai esconder qualquer conteúdo que vazar horizontalmente */
+    overflow-x: hidden;
   }
-
-    margin-bottom: 1rem;{
-    }
-  }
+}
