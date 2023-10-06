@@ -23,10 +23,11 @@ header {
   clear: none;
 }
 
-header {
+header a {
   background-color: #ffb6c1;
   text-align: center;
   border-bottom: 2px solid #000000;
+  text-decoration: none;
 }
 
 .logo { 
