@@ -14,18 +14,22 @@ body {
   font-family: Bodoni, sans-serif;
 }
 
-h1,
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+  color: white;
+}
+
 h3 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, sans-serif;
   color: #ffb6c1;
   text-align: center;
 }
 
-p{
+p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, sans-serif;
 }
 
-h2{
+h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, sans-serif;
 }
 
@@ -58,13 +62,11 @@ header a:hover {
   background-color: #ff7f81;
 }
 
-.imgdoce{
+.imgdoce {
   display: flex;
   margin: 10px;
-  justify-content: center;
   justify-content: space-evenly;
   align-items: center;
-
 }
 
 .logo {
@@ -79,7 +81,8 @@ img.capa {
   height: 700px;
   margin: auto;
 }
-form{
+
+form {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   margin: 1rem 20rem 1rem 1rem;
@@ -108,7 +111,7 @@ footer {
   color: #000000;
   text-align: center;
   border-bottom: 2px solid #000000;
-  
+
 }
 
 .icons {
@@ -116,4 +119,3 @@ footer {
   height: 2rem;
 
 }
-  
