@@ -29,7 +29,7 @@ header {
   flex-direction: row;
   text-align: center;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 5px;
 }
 
@@ -79,7 +79,7 @@ li {
 
 .imagens {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-radius: 2rem;
@@ -164,6 +164,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 1.3rem;
 }
 
 .icons {
@@ -174,11 +175,13 @@ footer {
 nav.navFooter {
   display: flex;
   gap: 10px;
+  margin: 0.2rem;
+  padding: 0.2rem;
 }
 
 .copy {
-  margin: 1rem;
-  padding: 1rem;
+  margin: 0.2rem;
+  padding: 0.2rem;
 }
 
 .centralizado {
@@ -192,3 +195,33 @@ nav.navFooter {
     overflow-x: hidden;
   }
 }
+
+@media (max-width: 768px) {
+  header, footer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+ #container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .column {
+  width: 95%;
+  margin-bottom: 10px;
+}
+ .imagens {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  
+}}
