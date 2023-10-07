@@ -10,7 +10,9 @@ body {
   border-left: 1px solid #f4a4ac;
   border-right: 1px solid #f4a4ac;
   font-family: Bodoni, sans-serif;
+  background-color: #fff;
 }
+
 
 h1, h2, h3 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -38,18 +40,20 @@ header a {
   border: none;
   padding: 5px 10px;
   margin: 5px;
-  border-radius: 15px;
+  border-radius: 11px;
   color: #fff;
   display: flex;
   flex-direction: column-reverse;
-  align-items: start;
+  align-items: end;
   transition: 0.4s;
   flex-wrap: nowrap;
 }
 
 header a:hover {
-  background-color: #9f5166;
+  background-color: #fff;
+  color: #9f5166;
   opacity: 0.8;
+  transition: background-color 1.5s ease;
   transform: scale(1.1);
 }
 
