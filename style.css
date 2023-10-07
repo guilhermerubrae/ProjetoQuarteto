@@ -159,6 +159,8 @@ img.capahome {
   align-items: flex-end;
   transition: 0.4s;
   flex-wrap: nowrap;
+  margin: 0.2rem;
+  padding: 0.2rem;
 }
 
 footer {
