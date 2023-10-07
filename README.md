@@ -1,11 +1,13 @@
-Sweet and Love - Trabalho em grupo
+## Sweet and Love - Trabalho em grupo
 
-link: https://github.com/guilhermerubrae/ProjetoQuarteto
+<link:> https://github.com/guilhermerubrae/ProjetoQuarteto </link:>
 
-Guilherme Abreu
+<p>Branch final: "main"</p>
 
-Eduardo Theodoro
+<p>Guilherme Abreu</p>
 
-Mikael Braz
+<p>Eduardo Theodoro</p>
 
-Dani Marinho
+<p>Mikael Braz</p>
+
+<p>Dani Marinho</p>
