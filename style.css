@@ -214,7 +214,7 @@ nav.navFooter {
   align-items: center;
  }
  .column {
-  width: 95%;
+  width: 100%;
   margin-bottom: 10px;
 }
  .imagens {
@@ -224,4 +224,9 @@ nav.navFooter {
   align-items: center;
   justify-content: space-around;
   
+}
+.navFooter{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }}
