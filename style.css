@@ -205,6 +205,43 @@ nav.navFooter {
   margin: 1rem;
 }
 
+
+@media (max-width: 768px) {
+  header, footer {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+ #container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .column {
+  width: 100%;
+  margin-bottom: 10px;
+}
+ .imagens {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.navFooter{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}}
+
+
 @media (max-width: 768px) {
   body, header, footer, form {
     max-width: 100%;
